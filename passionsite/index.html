@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Bebas Neue Static  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cutive+Mono&family=Dancing+Script:wght@400..700&display=swap"
+        rel="stylesheet">
+    <!-- Slabo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cutive+Mono&family=Dancing+Script:wght@400..700&family=Slabo+27px&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="layout.css">
+
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="/">
+                <img src="img/logo.svg" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Video</a></li>
+                <li><a href="index.html">About</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1> LET'S GO SKIING !</h1>
+        <div class="lottie">
+            <!-- lottie filen -->
+            <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+                type="module"></script>
+            <dotlottie-player src="https://lottie.host/ca3c8b13-81da-415a-a435-e5d191f6fa67/2eRemo33dj.lottie"
+                background="transparent" speed="1" style="width: 300px; height: 200px" loop autoplay></dotlottie-player>
+        </div>
+        <div class="grid_1-1">
+
+            <div>
+                <h2>At elske at stå på ski</h2>
+                <h3>Gustav og hans passion på at stå på ski, naturen og motion.</h3>
+                <p>"At stå på ski er en unik kombination af spænding, naturoplevelser og fysisk udfoldelse. For
+                    mange handler
+                    passionen om
+                    følelsen af frihed, når man suser ned ad sneklædte bjergsider, omgivet af storslåede landskaber
+                    og den
+                    friske, kolde
+                    bjergluft. Det er ikke kun en adrenalinfyldt sport, men også en aktivitet, der styrker kroppen
+                    og giver en
+                    fantastisk
+                    helkropsmotion, hvor balance, styrke og udholdenhed forenes. Samtidig skaber skiløb en særlig
+                    forbindelse
+                    til naturen,
+                    hvor man kan finde ro og glæde midt i vintersæsonens skønhed. Det er denne blanding af eventyr,
+                    motion og
+                    naturoplevelser, der gør skiløb til en livsstil for mange".</p>
+            </div>
+
+            <div class="img_container">
+                <img class="img1" src="img/img1.webp" alt="img1">
+                <div class="text">
+                    <p>"jeg elsker at sidde på skiliften og nyde naturen omkring mig</p>
+                </div>
+            </div>
+
+        </div>
+        <section id="værkstedet">
+            <h3> Gustavs minder fra skiferiene </h3>
+            <div id="grid_2-1-1">
+                <img src="img/img2.webp" class="img2" alt="img2">
+                <img src="img/img3.webp" class="img3" alt="img3">
+                <img src="img/img4.webp" class="img4" alt="img4">
+                <img src="img/img5.webp" class="img5" alt="img5">
+            </div>
+        </section>
+
+        <div id="interwiew">
+            <h3> En lille fortælling om Gustav </h3>
+            <div class="grid_1-1">
+                <!-- video -->
+                <iframe class="embed" width="560" height="315"
+                    src="https://www.youtube.com/embed/iSurRxJapv8?si=vDrJXp9Mf0xI-s3S" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Lavet af Margherita Feltrin
+    </footer>
+
+    <script src="menu.js"></script>
+</body>
+
+</html>
